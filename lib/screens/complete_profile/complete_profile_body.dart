@@ -64,8 +64,45 @@ class CompleteProfileForm extends StatefulWidget {
 }
 
 class _CompleteProfileFormState extends State<CompleteProfileForm> {
+  final _formKey = GlobalKey<FormState>();
+  final List<String> errors = [];
+  String gstNo;
+  String companyName;
+  String contactNo;
+  String address;
+
+  void addError({String error}) {
+    if (!errors.contains(error)) {
+      setState(() {
+        errors.add(error);
+      });
+    }
+  }
+
+  void removeError({String error}) {
+    if (!errors.contains(error)) {
+      setState(() {
+        errors.remove(error);
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Form(
+        key: _formKey,
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              "GST No",
+              style: TextStyle(
+                color: Colors.white,
+                fontWeight: FontWeight.bold,
+                fontFamily: 'OpenSans',
+              ),
+            ),
+          ],
+        ));
   }
 }

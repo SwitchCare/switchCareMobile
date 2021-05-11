@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "604834675313",
+    "project_id": "switchcarepoc",
+    "storage_bucket": "switchcarepoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604834675313:android:55a38520729dd9fc2eb9d0",
+        "android_client_info": {
+          "package_name": "com.business.switch_care"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604834675313-e7mlh7di4g00f60tsvsoj5rpipualej1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJGmJEwJKnJq2l7GI2FHv5pB37N1TTg3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604834675313-e7mlh7di4g00f60tsvsoj5rpipualej1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
